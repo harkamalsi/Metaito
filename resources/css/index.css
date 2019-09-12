@@ -452,6 +452,21 @@ body {
   line-height: 1.5em;
 }
 
+@media (max-width: 768px) {
+  #intro .subheading {
+    margin: 10px 0 0 0;
+    line-height: 1.5em;
+  }
+}
+
+#intro .content .column {
+  margin-top: 30px;
+}
+
+#intro .content h3 {
+  margin-top: 5px;
+}
+
 #team .member div {
   margin-top: 0.5em;
 }
@@ -471,6 +486,14 @@ body {
 
 .black {
   font-weight: bold;
+}
+
+#team .member a {
+  text-decoration: none;
+}
+
+#team .member a:visited {
+  color: blue;
 }
 
 @media (min-width: 768px) {
