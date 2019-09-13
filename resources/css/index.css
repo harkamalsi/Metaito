@@ -605,7 +605,7 @@ footer .text {
 }
 
 @media (max-width: 768px) {
-  footer {
-    margin-top: 10vh;
+  #partners {
+    height: 120vh;
   }
 }
