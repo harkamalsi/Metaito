@@ -606,6 +606,6 @@ footer .text {
 
 @media (max-width: 768px) {
   footer {
-    margin-top: 10rem;
+    margin-top: 10vh;
   }
 }
