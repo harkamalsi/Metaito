@@ -528,7 +528,7 @@ body {
 }
 
 #partners {
-  height: 90vh;
+  height: auto;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -602,10 +602,4 @@ footer .text {
   color: white;
   line-height: 1.5em;
   letter-spacing: 0.05em;
-}
-
-@media (max-width: 768px) {
-  #partners {
-    height: 120vh;
-  }
 }
